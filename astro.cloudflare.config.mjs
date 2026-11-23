@@ -5,6 +5,5 @@ import base from './astro.config.mjs';
 export default defineConfig({
   ...base,
   outDir: './dist-cloudflare',
-  server: { streaming: false },
-  adapter: cloudflare(),
+  adapter: cloudflare({ workerEntryPoint: { path: './src/cloudflare.js' } }),
 });
