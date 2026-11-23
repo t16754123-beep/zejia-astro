@@ -1,0 +1,87 @@
+---
+import navigation from "../data/navigation.json";
+const {active} = Astro.props;
+---
+<header id="header" class="header max-width">
+    <nav class="navbar navbar-custom navbar-expand-lg max-width">
+        <div class="container-fluid max-container">
+            <div class="d-flex justify-content-between align-items-center max-width">
+                <a class="zejia-brand" href="/" aria-label="无锡市泽嘉科技有限公司首页">
+                    <img src="/zejia/logo.png" alt="无锡市泽嘉科技有限公司" width="2846" height="809">
+                </a>
+                <div class="d-flex align-items-center ">
+                        <div class="collapse navbar-collapse justify-content-end" id="header-nav">
+                            <ul class="navbar-nav">{navigation.map(item => <li class:list={["nav-item", {active: item.href === active}]}><a href={item.href} class="nav-link">{item.label}</a></li>)}</ul>
+                        </div>
+                </div>
+                <div class="d-flex justify-content-end align-items-center">
+                    <form class="dropdown dropdown-search" action="/search/product">
+                        <button type="button" class="btn search-btn" data-bs-toggle="dropdown" id="search-btn" aria-label="search"><img src="/theme/sanfeng-zh/images/sop.png" alt="" class="sop"></button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <div class="input-group search-group">
+                                <input type="search" autocomplete="off" id="searchKey" class="form-control" data-provider="cms-search" data-event-name="Search" data-type="product" aria-label="keywords" data-pagesize="12" placeholder="关键词" name="q" required="">
+                                <button type="submit" id="search_button" class="btn" data-control-id="searchKey" aria-label="search"><i class="icon icon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="dropdown lang">
+                        <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" id="site-lang">
+                            <img src="/theme/sanfeng-zh/images/la.png" alt="global" class="la-png"> 简体中文
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="site-lang">
+                            <li><a class="dropdown-item" target="_blank" href="https://azejia.com/">English</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="navbar-toggler" aria-label="打开网站导航" aria-controls="offcanvasmenu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasmenu">
+                        <span class="icon icon-bars"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="offcanvas offcanvas-start offcanvas-menu" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvastitle">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvastitle">网站导航</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="canvas-menu">
+                <li class="nav-item"><a href="/" class="nav-link">首页</a></li>
+                        <li class="nav-item"><a href="/about-us" class="nav-link">关于泽嘉</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/products">产品展示</a>
+                            <button type="button" class="drop collapsed" data-bs-toggle="collapse" data-bs-target="#canvas-menu-2"></button>
+                        </li>
+                        <li id="canvas-menu-2" class="sub-menu collapse" data-bs-parent="#offcanvasmenu">
+                            <ul class="list-unstyled">
+                                            <li class="nav-item"><a href="/shizizhoushiwanxianglianzhouqi" class="nav-link">十字轴式万向联轴器</a></li>
+                                            <li class="nav-item"><a href="/qiujiaoshijuantonglianzhouqi/qiujiaoshijuantonglianzhouqi" class="nav-link">球铰式卷筒联轴器</a></li>
+                                            <li class="nav-item"><a href="/guxingchishilianzhouqi/guxingchishilianzhouqi" class="nav-link">鼓形齿式联轴器</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/shizizhoushiwanxianglianzhouqi3">技术支持</a>
+                            <button type="button" class="drop collapsed" data-bs-toggle="collapse" data-bs-target="#canvas-menu-3"></button>
+                        </li>
+                        <li id="canvas-menu-3" class="sub-menu collapse" data-bs-parent="#offcanvasmenu">
+                            <ul class="list-unstyled">
+                                            <li class="nav-item">
+                                                <a href="/shizizhoushiwanxianglianzhouqi3" class="nav-link">十字轴式万向联轴器</a>
+                                                <button type="button" class="drop collapsed" data-bs-toggle="collapse" data-bs-target="#canvas-menu-9"></button>
+                                            </li>
+                                            <li id="canvas-menu-9" class="third-menu collapse">
+                                                <ul class="list-unstyled">
+<li class="nav-item"><a href="/xuanxing" class="nav-link">选型</a></li><li class="nav-item"><a href="/falanlianjiechicun" class="nav-link">法兰连接尺寸</a></li><li class="nav-item"><a href="/falanlianjiekekaoxingzonghefenxi" class="nav-link">法兰联接可靠性综合分析</a></li><li class="nav-item"><a href="/tongbuyunzhuantiaojianyuanzhuangweihu" class="nav-link">同步运转条件与安装维护</a></li>                                                </ul>
+                                            </li>
+                                            <li class="nav-item"><a href="/luoshuanyujinlijubiao" class="nav-link">球铰式卷筒联轴器</a></li>
+                                            <li class="nav-item"><a href="/qiujiaoshijuantonglianzhouqi2" class="nav-link">螺栓预紧力矩表</a></li>
+                                            <li class="nav-item"><a href="/chanpinyangbenxiazai" class="nav-link">产品样本下载</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="/gongchengyingyong" class="nav-link">工程应用</a></li>
+                        <li class="nav-item"><a href="/contact-us" class="nav-link">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+

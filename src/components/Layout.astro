@@ -1,0 +1,25 @@
+---
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+const {title,description,active,bodyClass} = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>{title}</title>
+    <meta name="description" content={description}/>
+    <link rel="stylesheet" href="/theme/sanfeng-zh/dist/css/shared-pc-v5.min.css" media="(min-width: 992px)" />
+    <link rel="stylesheet" href="/theme/sanfeng-zh/dist/css/shared-mobile-v5.min.css" media="(max-width: 991.98px)" />
+    <link rel="stylesheet" href="/theme/sanfeng-zh/dist/css/style-v5.css" />
+    <link rel="stylesheet" href="/interactions.css" />
+  </head>
+  <body class={bodyClass}>
+    <Header active={active}/>
+    <slot/>
+    <Footer active={active}/>
+    <script>import '../scripts/site.js';</script>
+  </body>
+</html>

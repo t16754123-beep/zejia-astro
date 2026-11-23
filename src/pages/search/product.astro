@@ -1,0 +1,17 @@
+---
+import Layout from '../../components/Layout.astro';
+import pages from '../../data/pages.json';
+export const prerender = false;
+const q = (Astro.url.searchParams.get('q') || '').trim();
+const results = pages.filter(page => page.product && (page.product + ' ' + page.terms).toLowerCase().includes(q.toLowerCase()));
+---
+<Layout title={'搜索：' + q + ' - 无锡市泽嘉科技有限公司'} description="搜索产品" active="" bodyClass="">
+  <div class="page-title"><div class="container-xl"><h1 class="title">搜索:{q}</h1></div></div>
+  <div class="main-container"><div class="container-xl">
+    <div class="row row-cols-2 row-cols-md-3">{results.map(p => <div class="col d-flex"><div class="item-col product-col">
+      <div class="thumbnail-wrapper"><a href={p.route} class="thumbnail"><img src={p.thumbnail || p.image} alt={p.product}/></a></div>
+      <div class="entry-wrapper text-center"><h3><a class="entry-title" href={p.route}>{p.product}</a></h3></div>
+    </div></div>)}</div>
+    {results.length === 0 && <p>没有找到相关产品。</p>}
+  </div></div>
+</Layout>

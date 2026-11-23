@@ -1,0 +1,19 @@
+{
+  "name": "sanfeng-astro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "start": "node dist/server/entry.mjs"
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.5.5",
+    "astro": "^5.18.2",
+    "bootstrap": "5.3.8",
+    "parse5": "7.3.0",
+    "swiper": "^11.2.10"
+  }
+}

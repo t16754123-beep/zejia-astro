@@ -1,0 +1,224 @@
+[
+  {
+    "key": "about-us",
+    "route": "/about-us",
+    "title": "关于泽嘉 - 无锡市泽嘉科技有限公司",
+    "description": "无锡市泽嘉科技有限公司位于无锡市锡山区，研发、制造和销售机械传动件。产品包括万向轴、膜片联轴器、鼓形齿式联轴器、皮带轮及链传动部件，并可按客户图纸加工非标零件。",
+    "active": "/about-us",
+    "bodyClass": ""
+  },
+  {
+    "key": "changyongzhouxiangjiegouxingshi",
+    "route": "/changyongzhouxiangjiegouxingshi",
+    "title": "常用轴向结构型式 - 无锡市泽嘉科技有限公司",
+    "description": "常用轴向结构型式 - 无锡市泽嘉科技有限公司",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "chanpinyangbenxiazai",
+    "route": "/chanpinyangbenxiazai",
+    "title": "产品样本下载 - 无锡市泽嘉科技有限公司",
+    "description": "产品样本下载 - 无锡市泽嘉科技有限公司",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "contact-us",
+    "route": "/contact-us",
+    "title": "联系我们 - 无锡市泽嘉科技有限公司",
+    "description": "联系无锡市泽嘉科技有限公司，地址为无锡市锡山区。业务联系人张先生，公司电话 158 0511 1666，邮箱 zejiatech@gmail.com。",
+    "active": "/contact-us",
+    "bodyClass": ""
+  },
+  {
+    "key": "falanlianjiechicun",
+    "route": "/falanlianjiechicun",
+    "title": "法兰连接尺寸 - 无锡市泽嘉科技有限公司",
+    "description": "从输入至输出两法兰联接是联轴器可靠运行的重要组成部分。建议选用铰制孔用螺栓组联接型式，该结构具有联接性能可靠、综合效果好、性价比高的特点。推荐指数★★★",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "falanlianjiekekaoxingzonghefenxi",
+    "route": "/falanlianjiekekaoxingzonghefenxi",
+    "title": "法兰联接可靠性综合分析 - 无锡市泽嘉科技有限公司",
+    "description": "摘要：从输入至输出的两法兰联接是十字轴式万向联轴器重要组成部分，直接关系到整个传输链的可靠性和传输链中各部件的性能及寿命，而用户往往容易忽略或误解这",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "gongchengyingyong",
+    "route": "/gongchengyingyong",
+    "title": "工程应用 - 无锡市泽嘉科技有限公司",
+    "description": "工程应用 - 无锡市泽嘉科技有限公司",
+    "active": "/gongchengyingyong",
+    "bodyClass": ""
+  },
+  {
+    "key": "guxingchishilianzhouqi__guxingchishilianzhouqi",
+    "route": "/guxingchishilianzhouqi/guxingchishilianzhouqi",
+    "title": "鼓型齿式联轴器 - 无锡市泽嘉科技有限公司",
+    "description": "鼓形齿式联轴器由相同齿数及模数的鼓形外齿配合内直齿组成，能在额定夹角及伸缩范围内传递额定转矩，具有结构简单、制造成本较低等优点。因受产品结构限制，使用夹角一般不",
+    "active": "/products",
+    "bodyClass": "",
+    "product": "鼓型齿式联轴器",
+    "image": "/uploads/2101/guxingchishilianzhouqi.jpg",
+    "terms": ""
+  },
+  {
+    "key": "home",
+    "route": "/",
+    "title": "无锡市泽嘉科技有限公司",
+    "description": "无锡市泽嘉科技有限公司位于无锡市锡山区，研发、制造和销售机械传动件。产品包括万向轴、膜片联轴器、鼓形齿式联轴器、皮带轮及链传动部件，并可按客户图纸加工非标零件。",
+    "active": "/",
+    "bodyClass": "bg-white"
+  },
+  {
+    "key": "lianzhouqizhouchengshoumingjisuan",
+    "route": "/lianzhouqizhouchengshoumingjisuan",
+    "title": "联轴器轴承寿命计算 - 无锡市泽嘉科技有限公司",
+    "description": "联轴器轴承寿命计算 - 无锡市泽嘉科技有限公司",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "luoshuanyujinlijubiao",
+    "route": "/luoshuanyujinlijubiao",
+    "title": "球铰式卷筒联轴器 - 无锡市泽嘉科技有限公司",
+    "description": "球铰式卷筒联轴器 - 无锡市泽嘉科技有限公司",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "products",
+    "route": "/products",
+    "title": "产品展示 - 无锡市泽嘉科技有限公司",
+    "description": "产品展示 - 无锡市泽嘉科技有限公司",
+    "active": "/products",
+    "bodyClass": ""
+  },
+  {
+    "key": "qitashebeixuanxinggongshi",
+    "route": "/qitashebeixuanxinggongshi",
+    "title": "其他设备选型公式 - 无锡市泽嘉科技有限公司",
+    "description": "其他设备选型公式 - 无锡市泽嘉科技有限公司",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "qiujiaoshijuantonglianzhouqi2",
+    "route": "/qiujiaoshijuantonglianzhouqi2",
+    "title": "螺栓预紧力矩表 - 无锡市泽嘉科技有限公司",
+    "description": "螺纹规格dxp  8.8级  10.9级  12.9级  M5*0.8  5  7  8.5  M6*1  8.5  12  14",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "qiujiaoshijuantonglianzhouqi__qiujiaoshijuantonglianzhouqi",
+    "route": "/qiujiaoshijuantonglianzhouqi/qiujiaoshijuantonglianzhouqi",
+    "title": "球铰式卷筒联轴器 - 无锡市泽嘉科技有限公司",
+    "description": "WZL 系列球铰式卷筒联轴器用于连接减速机输出轴与卷筒。该系列产品积木化式结构的各部件厚实耐用，径向承受载荷大，传",
+    "active": "/products",
+    "bodyClass": "",
+    "product": "球铰式卷筒联轴器",
+    "image": "/uploads/2101/qiujiaoshijuantonglianzhouqixuanrantu1.jpg",
+    "terms": ""
+  },
+  {
+    "key": "qizhongjizhuanyongxuanxinggongshi",
+    "route": "/qizhongjizhuanyongxuanxinggongshi",
+    "title": "起重机专用选型公式 - 无锡市泽嘉科技有限公司",
+    "description": "起重机专用选型公式 - 无锡市泽嘉科技有限公司",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "search__product",
+    "route": "/search/product",
+    "title": "SW - 无锡市泽嘉科技有限公司",
+    "description": "SW",
+    "active": "/",
+    "bodyClass": ""
+  },
+  {
+    "key": "shizizhoushiwanxianglianzhouqi",
+    "route": "/shizizhoushiwanxianglianzhouqi",
+    "title": "十字轴式万向联轴器 - 无锡市泽嘉科技有限公司",
+    "description": "十字轴式万向联轴器 - 无锡市泽嘉科技有限公司",
+    "active": "/products",
+    "bodyClass": ""
+  },
+  {
+    "key": "shizizhoushiwanxianglianzhouqi3",
+    "route": "/shizizhoushiwanxianglianzhouqi3",
+    "title": "十字轴式万向联轴器 - 无锡市泽嘉科技有限公司",
+    "description": "联轴器确定使用工况     联轴器运行工况须确定工作夹角、总长度、伸缩量、防尘防水级别、环境温度范围、是否带载荷伸缩、运行转速及动平衡精度级别…… 联轴器品",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "shizizhoushiwanxianglianzhouqi__jxcxilie",
+    "route": "/shizizhoushiwanxianglianzhouqi/jxcxilie",
+    "title": "JXC系列 - 无锡市泽嘉科技有限公司",
+    "description": "JXC系列系列规格性能表  型号   P  Q  G  A  β  L1  S  S1  L-Fmin  L-Bmin  G0  G1",
+    "active": "/products",
+    "bodyClass": "",
+    "product": "JXC系列",
+    "image": "/uploads/2101/jxcxiliexuanrantu.jpg",
+    "terms": "十字轴式万向联轴器主要由十字轴总成、各种叉头、花键副等零部件组成。具有传递转矩大、可用夹角大、使用寿命长、使用范围广，且灵活平稳高效运转等优点。 整体叉头结构，基本结构类似SWC系列产品，但没有副轴承，该系列属轻载小规格产品，弹性挡圈受力较小，故使用中还是比较可靠。优点是可用夹角更大，造价相对低廉，但传递转矩较小。",
+    "thumbnail": "/uploads/2101/jxcxiliexuanrantu-640-640.jpg"
+  },
+  {
+    "key": "shizizhoushiwanxianglianzhouqi__swcxilie",
+    "route": "/shizizhoushiwanxianglianzhouqi/swcxilie",
+    "title": "SWC系列 - 无锡市泽嘉科技有限公司",
+    "description": "SWC系列规格性能表  型号  P-Tm  P-Tp  P-Tf  A  β  L1  S  S1  L-Fmin  L-Bmin  G",
+    "active": "/products",
+    "bodyClass": "",
+    "product": "SWC系列",
+    "image": "/uploads/2101/swcxiliexuanrantu.jpg",
+    "terms": "十字轴式万向联轴器主要由十字轴总成、各种叉头、花键副等零部件组成。具有传递转矩大、可用夹角大、使用寿命长、使用范围广，且灵活平稳高效运转等优点。 整体叉头结构，基本结构类似SWC系列产品，但没有副轴承，该系列属轻载小规格产品，弹性挡圈受力较小，故使用中还是比较可靠。优点是可用夹角更大，造价相对低廉，但传递转矩较小。",
+    "thumbnail": "/uploads/2101/swcxiliexuanrantu-640-640.jpg"
+  },
+  {
+    "key": "shizizhoushiwanxianglianzhouqi__swfxilie",
+    "route": "/shizizhoushiwanxianglianzhouqi/swfxilie",
+    "title": "SWF系列 - 无锡市泽嘉科技有限公司",
+    "description": "SWF系列规格性能表  型号   P  Q  G  A  β  L1  S  S1  LFmin  LBmin  G0  G100",
+    "active": "/products",
+    "bodyClass": "",
+    "product": "SWF系列",
+    "image": "/uploads/2101/swfxiliexuanrantu.jpg",
+    "terms": "十字轴式万向联轴器主要由十字轴总成、各种叉头、花键副等零部件组成。具有传递转矩大、可用夹角大、使用寿命长、使用范围广，且灵活平稳高效运转等优点。 SWF 系列采用整体叉头结构。在叉头内部用便于装拆的卡板替代开槽嵌挡圈结构，并巧妙地在十字轴端部装有轴向滚动轴承，实现径向、轴向全滚动轴承结构。该系列产品承载转矩大、使用寿命长、精度高、转动灵活可靠，特别适用于各繁重工况条件，其优势更加突出。",
+    "thumbnail": "/uploads/2101/swfxiliexuanrantu-640-640.jpg"
+  },
+  {
+    "key": "shizizhoushiwanxianglianzhouqi__swpxilie",
+    "route": "/shizizhoushiwanxianglianzhouqi/swpxilie",
+    "title": "SWP系列 - 无锡市泽嘉科技有限公司",
+    "description": "SWP系列规格性能表  型号  P-Tm  P-Tp  P-Tf  A  β  L1  S  S1  LFmin  LBmin  G0",
+    "active": "/products",
+    "bodyClass": "",
+    "product": "SWP系列",
+    "image": "/uploads/2101/swpxiliexuanrantu.jpg",
+    "terms": "十字轴式万向联轴器主要由十字轴总成、各种叉头、花键副等零部件组成。具有传递转矩大、可用夹角大、使用寿命长、使用范围广，且灵活平稳高效运转等优点。 此系列产品叉头内宝贵的空间尺寸未能充分发挥利用，各项指标及性价比均无明显优势。更多SWP系列产品内容请下载产品样本查阅。",
+    "thumbnail": "/uploads/2101/swpxiliexuanrantu-640-640.jpg"
+  },
+  {
+    "key": "tongbuyunzhuantiaojianyuanzhuangweihu",
+    "route": "/tongbuyunzhuantiaojianyuanzhuangweihu",
+    "title": "同步运转条件与安装维护 - 无锡市泽嘉科技有限公司",
+    "description": "十字轴式万向联轴器同步运转所需条件     十字轴式万向联轴器需同时满足以下三项条件才能同步运转，即输入、输出端与轴线形成的夹角相等；输入端、输出端、联轴器三",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  },
+  {
+    "key": "xuanxing",
+    "route": "/xuanxing",
+    "title": "选型 - 无锡市泽嘉科技有限公司",
+    "description": "联轴器确定使用工况     联轴器运行工况须确定工作夹角、总长度、伸缩量、防尘防水级别、环境温度范围、是否带载荷伸缩、运行转速及动平衡精度级别…… 联轴器品",
+    "active": "/shizizhoushiwanxianglianzhouqi3",
+    "bodyClass": ""
+  }
+]

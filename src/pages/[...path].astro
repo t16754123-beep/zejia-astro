@@ -1,0 +1,14 @@
+---
+import Layout from '../components/Layout.astro';
+import pages from '../data/pages.json';
+export function getStaticPaths() {
+  return pages.filter(page => page.key !== 'search__product').map(page => ({
+    params: {path: page.route.slice(1) || undefined},
+    props: {page}
+  }));
+}
+const {page} = Astro.props;
+const fragments = import.meta.glob('../content/*.html', {query: '?raw', import: 'default', eager: true});
+const content = fragments['../content/' + page.key + '.html'];
+---
+<Layout {...page}><Fragment set:html={content}/></Layout>

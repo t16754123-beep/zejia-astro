@@ -1,0 +1,45 @@
+picture { display: contents; }
+.zejia-brand {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  padding: 9px 15px;
+  background: transparent;
+}
+.zejia-brand img {
+  display: block;
+  filter: brightness(0) invert(1);
+  width: clamp(108px, 10vw, 148px);
+  height: auto;
+}
+.zejia-brand:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 4px;
+}
+.sf-header .zejia-brand { padding-block: 5px; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header .navbar-nav .nav-item { margin-inline: 8px; }
+}
+@media (max-width: 991.98px) {
+  .zejia-brand { padding: 6px 10px; }
+  .zejia-brand img { width: 100px; }
+  #header .navbar-toggler { color: white; margin-inline-start: 8px; }
+}
+.banner:hover .swiper-button, .banner:focus-within .swiper-button { display: block; }
+@media (min-width: 992px) { #offcanvasmenu { display: none; } }
+@media (max-width: 991.98px) { #header-nav, .dropdown-search { display: none; } }
+
+/* The four series share their source names across catalog, detail and search views. */
+img[src*="/swfxiliexuanrantu"],
+img[src*="/swcxiliexuanrantu"],
+img[src*="/swpxiliexuanrantu"],
+img[src*="/jxcxiliexuanrantu"],
+img[src*="/2574689456356"],
+img[src$="/25424533.jpg"] {
+  filter: url("/paint.svg#shaft-red");
+}
+
+/* This gear coupling has a yellow card background and a separate blue housing. */
+img[src$="/254245333.jpg"] {
+  filter: url("/paint.svg#industrial-blue");
+}
