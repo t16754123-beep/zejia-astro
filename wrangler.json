@@ -1,0 +1,13 @@
+{
+  "name": "zejia-astro",
+  "pages_build_output_dir": "./dist-cloudflare",
+  "compatibility_date": "2026-01-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "SITE_DB",
+      "database_name": "zejia-astro-inquiries",
+      "database_id": "f3098380-c736-46f7-83ca-ba317723bd7e"
+    }
+  ]
+}
