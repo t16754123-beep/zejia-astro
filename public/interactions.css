@@ -39,7 +39,11 @@ img[src$="/25424533.jpg"] {
   filter: url("/paint.svg#shaft-red");
 }
 
-/* This gear coupling has a yellow card background and a separate blue housing. */
+/* Recolor the card backdrop before selecting the enamel on the coupling. */
 img[src$="/254245333.jpg"] {
-  filter: url("/paint.svg#industrial-blue");
+  filter: url("/paint.svg#industrial-blue") url("/paint.svg#gear-red");
+}
+img[src*="/25672903574289354-1"],
+img[src$="-industrial.jpg"] {
+  filter: url("/paint.svg#gear-red");
 }
